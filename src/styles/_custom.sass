@@ -2,29 +2,257 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 80%
+
+@keyframes girarYVolver
+  0%
+    transform: rotate(0deg)
+  40%
+    transform: rotate(360deg)
+  60%
+    transform: rotate(360deg)
+  100%
+    transform: rotate(0deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 50% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
+
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 650px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: black !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: black !important
+
+.barra-avance__boton--regresar span
+  color: white !important
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #A3CB38 !important
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+
+.bloque-texto-g.color-acento-contenido
+  border-radius: 0px 87px 87px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 65%
+    border-radius: 53px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.cajon.color-acento-contenido
+  background-color: #FEF8E6
+  &:before 
+    background-color: #FBE49D
+
+.bloque1
+  background-color: #BBD8F2
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 65%
+    border-radius: 0px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.bloque2
+  background-color: #3B4B68
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+
+.titul
+  background-color: #F5BB0B
+  border-radius: 50px 0px 0px 50px
+  width: fit-content
+  padding: 8px 40px 8px 65px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 15px
+  &__icono-montania
+    width: 63px
+    height: 63px
+    position: absolute
+    top: 45%
+    left: -18px
+    transform: translateY(-50%)
+    object-fit: contain
+    z-index: 1
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      width: 55px
+      height: 55px
+    @media only screen and (max-width: 767px)
+      width: 55px
+      height: 55px
+  &__icono-avion
+    width: 20px
+    height: 20px
+    position: absolute
+    right: -10px
+    top: 50%
+    transform: translateY(-50%)
+    object-fit: contain
+    z-index: 2
+  
+.bg1
+  background-color: #FCF7EF
+
+.cajon.color-primario
+  background-color: #F2ECEB
+  &:before 
+    background-color: #4E2825
+
+.linea-tiempo-e__item 
+  display: flex
+  position: relative
+  padding: 10px 0
+.linea-tiempo-e.color-primario .linea-tiempo-e__item__header:before 
+  border-color: #F5BB0B
+.linea-tiempo-e__item__header:before 
+  top: 0px
+.linea-tiempo-e__item__header
+  top: 10px
+.linea-tiempo-e:before 
+    background: #3B4B68
+
+.cajon.color-secundario
+  background-color: #FEF8E6
+  &:before 
+    background-color: #624B04
+
+.tarjeta--slyder.b2
+  background: url('../assets/curso/tema1/fd.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+.bg2
+  background-color: #3B4B68
+  width: fit-content
+  margin: auto
+.fa-chevron-right 
+  content: url('../assets/curso/tema1/der.png')
+.fa-chevron-left
+  content: url('../assets/curso/tema1/izq.png')
+
+.cajon.color-acento-botones
+  background-color: #E2F0FC
+  &:before 
+    background-color: #3B4B68
+
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.5
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 33%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 67%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #CDB3B1
+  color: black
+.color-a
+  background-color: #FEF8E6
+  border-radius: 10px
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    background-color: #3B4B68
+    color: white !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #3B4B68
+
+.bg3
+  background-color: #FCFCF6
+  border-radius: 30px
+.tarjeta.color-acento-contenido
+  background-color:#FEF8E6
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: .1
+
+
+
