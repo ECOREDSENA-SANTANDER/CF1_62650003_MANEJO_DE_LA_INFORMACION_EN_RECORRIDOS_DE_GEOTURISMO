@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
       )
@@ -18,9 +18,9 @@
     .cajon.color-acento-contenido.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0 En esa misma línea, el guía de turismo cumple una función esencial como mediador entre el visitante y el entorno, debido a que orienta, informa, interpreta y promueve experiencias significativas de acuerdo con la normativa aplicable y las buenas prácticas del sector. Por ello, su formación requiere el reconocimiento del sistema turístico, del patrimonio y de los recursos que hacen posible una experiencia turística pertinente, segura y de calidad.
     
-    p.mb-5 De manera particular, el geoturismo adquiere relevancia porque promueve la valoración de la geodiversidad, del paisaje y del patrimonio asociado al territorio, integrando componentes naturales, geológicos y culturales. A través de este enfoque, el aprendiz podrá reconocer la importancia de los geoparques, del patrimonio y de los recursos y atractivos turísticos como base para comprender la actividad del geoturismo en la región.
+    p.mb-5(data-aos="fade-right") De manera particular, el geoturismo adquiere relevancia porque promueve la valoración de la geodiversidad, del paisaje y del patrimonio asociado al territorio, integrando componentes naturales, geológicos y culturales. A través de este enfoque, el aprendiz podrá reconocer la importancia de los geoparques, del patrimonio y de los recursos y atractivos turísticos como base para comprender la actividad del geoturismo en la región.
     
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-left")         
       .col-lg-12
         figure
           .video

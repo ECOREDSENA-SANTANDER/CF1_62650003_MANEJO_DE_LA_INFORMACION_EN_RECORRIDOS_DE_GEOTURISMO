@@ -69,7 +69,7 @@ figcaption
 .titulo-sexto
   border-left: 10px solid
   padding: 6px 0 6px 8px
-  border-left-color: #A3CB38 !important
+  border-left-color: #F5BB0B !important
 
 .cen
   display: flex
@@ -85,7 +85,7 @@ figcaption
   margin: auto
 
 
-.bloque-texto-g.color-acento-contenido
+.bloque-texto-g.color-acento-contenido, .bloque-texto-g.color-acento-botones
   border-radius: 0px 87px 87px 0px
   @media only screen and (max-width: 767px)
     border-radius: 0px
@@ -141,7 +141,7 @@ figcaption
   background-color: #F5BB0B
   border-radius: 50px 0px 0px 50px
   width: fit-content
-  padding: 8px 40px 8px 65px
+  padding: 8px 30px 8px 65px
   position: relative
   display: inline-flex
   align-items: center
@@ -151,7 +151,7 @@ figcaption
     height: 63px
     position: absolute
     top: 45%
-    left: -18px
+    left: -15px
     transform: translateY(-50%)
     object-fit: contain
     z-index: 1
@@ -170,6 +170,8 @@ figcaption
     transform: translateY(-50%)
     object-fit: contain
     z-index: 2
+    @media only screen and (max-width: 767px)
+      display: none
   
 .bg1
   background-color: #FCF7EF
@@ -209,10 +211,17 @@ figcaption
   background-color: #3B4B68
   width: fit-content
   margin: auto
-.fa-chevron-right 
-  content: url('../assets/curso/tema1/der.png')
-.fa-chevron-left
-  content: url('../assets/curso/tema1/izq.png')
+.circl-arrow .slyder-f__btn i
+  font-size: 1rem
+  background-color: #3B4B68
+  color: #F3DEC2
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
 
 .cajon.color-acento-botones
   background-color: #E2F0FC
@@ -249,10 +258,207 @@ figcaption
 .bg3
   background-color: #FCFCF6
   border-radius: 30px
+
 .tarjeta.color-acento-contenido
   background-color:#FEF8E6
 .img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
   opacity: .1
 
+.bg4
+  background-color: #FCFCF6
+
+.bg5
+  background-color: #3B4B68
+  border-radius: 10px
+.lista-ol--cuadro__vineta 
+  background-color: #3B4B68
+  color: #fff
+  min-width: 30px
+  height: 30px
+  border-radius: 50%
+  top: -4px
+.mx-4.t1
+  margin-left: 2.3rem !important
+
+.cajon.color-pri
+  background-color: #FCF7EF
+  &:before 
+    background-color: #4F3C24
+
+.color-acento-botones.tem1
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 30%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 70%
+
+.fa-leaf
+  position: relative
+  padding-left: 0.4em
+.fa-leaf::before
+  content: "•"
+  position: absolute
+  font-size: 20px
+  left: 0
+  top: -0.2em
+
+.tarjeta-numerada
+  border: solid 4px
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero div 
+  color: black
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero div 
+  color: white
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero div 
+  color: black
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero
+  background-color: #BBD8F2
+.tarjeta-numerada.color-acento-botones 
+  border-color: #BBD8F2
+
+.bg6
+  background-color: #C3C8D1
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-color: #E2F0FC
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+.tarjeta--slyder.b1
+  background-color: #E2F0FC
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+
+.bg7
+  background-color: #F2ECEB
+
+.bg8
+  background-color: #FCF7EF
+  border-radius: 19px
+
+.bg9
+  background-color: #E2F0FC
+
+.cajon.color-ace
+  background-color: #E2F0FC
+  &:before 
+    background-color: #646867
+
+.bg10
+  background-color:#F3DEC2
+
+.bg11
+  background-color: #E2F0FC
+  border-radius: 19px
+
+.bg12
+  background-color: #E2AC67
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: $black
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones
+  border-color: #3B4B68
+.tarjeta-audio 
+  border: 3px solid
+  padding: 1.65em 0.7em 0.7em 1.5em
+  border-radius: 30px
+  min-height: 100px
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn 
+  background-color: #3B4B68
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #F2ECEB
+
+.bg13
+  background-color: #CDB3B1
+  border-radius: 18px 0px 0px 18px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 18px 0px 0px 18px
+.bg14
+  background-color: #FEF8E6
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 18px 18px 0px
+.bg15
+  background-color: #F3DEC2
+  border-radius: 0px 18px 18px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 20px
+
+.bg16
+  background-color: #F3DEC2
 
 
+
+  
+//////////////////////////TABLAS///////////////////////
+
+.tabla-a thead 
+    border-top: 7px solid #CDB3B1
+    color: black
+    background-color: #FBE49D
+.tabla-a th
+  border-color: #FBE49D
+  text-align: left
+.tabla-a
+  table th
+    padding: 18px 15px
+  table td 
+    padding: 18px 15px
+.tabla-a
+  table
+    width: 100%
+    table-layout: auto
+    th, td
+      overflow-wrap: break-word
+      white-space: normal
+      vertical-align: top
+      text-align: left
+
+.tabla-a.tab1
+  th:nth-child(1)
+    width: 40%
+  th:nth-child(2)
+    width: 60%
+
+
+//////////////////////////TABLAS PEQ///////////////////////
+
+.tabla-a.tabla-peq
+  overflow-x: visible !important
+  overflow: visible !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch !important
+    display: block !important
+  table
+    min-width: auto !important
+    width: 100% !important
+    table-layout: auto !important
+    @media (max-width: 991px)
+      min-width: 500px !important 
+  tbody
+    td
+      padding: 1.6rem 1rem !important
+  thead
+    th
+      padding: 1rem 0.75rem !important 
+
+.tabla-a.tabla-peq.tabla1
+  th:nth-child(1)
+    width: 40%
+  th:nth-child(2)
+    width: 60%
