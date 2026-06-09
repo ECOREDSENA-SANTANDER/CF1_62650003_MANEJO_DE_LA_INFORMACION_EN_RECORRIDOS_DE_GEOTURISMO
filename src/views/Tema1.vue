@@ -49,7 +49,7 @@
             .col-lg-2.col-md-3.col-6.mb-3
               img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
             .col-lg-10.col-md-9.mb-3
-              h4.mb-4 Antiguedad
+              h4.mb-4 Antigüedad
               p.mb-0 Primeros desplazamientos con fines religiosos, comerciales y recreativos.
           .row.justify-content-center.align-items-center(titulo="Hito 2" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
@@ -111,49 +111,49 @@
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/11.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo Cultural
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo cultural
             p.mb-0.text-center Motivación centrada en aprender, descubrir, experimentar y consumir atractivos o productos culturales materiales e inmateriales del destino. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de Naturaleza
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de naturaleza
             p.mb-0.text-center Turismo basado en la naturaleza, cuya motivación principal es la observación y apreciación del entorno natural y de las culturas tradicionales. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/13.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo Rural
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo rural
             p.mb-0.text-center Subproducto del turismo de naturaleza orientado a la recreación, el descanso y la actividad en espacios rurales o campestres. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/14.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de Aventura
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de aventura
             p.mb-0.text-center Actividades lúdico-recreativas alrededor del aire, la tierra y el agua, con riesgo controlado y contacto directo con la naturaleza. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/15.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de Bienestar
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo de bienestar
             p.mb-0.text-center Tipología de viaje orientada al equilibrio mental, emocional, espiritual y físico del viajero, en conexión con la naturaleza, la cultura y la comunidad. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/16.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo Médico
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo médico
             p.mb-0.text-center Viajes motivados por tratamientos médicos de baja, media o alta complejidad, integrados a planes turísticos complementarios. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/17.svg' alt='AvatarTop')
             .bg2.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo Marino Costero
+              h4.text-center.text-white.mb-0.ps-1.pe-1 Turismo marino costero
             p.mb-0.text-center Actividades turísticas activas y pasivas en zonas de litoral continental, insular y espacios marinos, con servicios e infraestructura en tierra. 
           .tarjeta.tarjeta--slyder.b2.p-3
             .row.justify-content-center.align-items-center.mb-4.mt-3

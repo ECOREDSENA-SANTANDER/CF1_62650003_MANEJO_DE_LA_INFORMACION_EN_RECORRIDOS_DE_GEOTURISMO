@@ -1,9 +1,9 @@
 export default {
   global: {
     Name:
-      'Caracterización y planeación de las actividades del geoturismo aplicadas a los atractivos turísticos de la región',
+      'Caracterización y planeación de las actividades del geoturismo aplicadas a los atractivos turísticos',
     Description:
-      'El componente formativo Caracterización del geoturismo y planeación del recorrido geoturístico en atractivos turísticos de la región orienta al aprendiz en el reconocimiento de los recursos y atractivos turísticos del territorio, así como en la comprensión del geoturismo, el sistema turístico, el patrimonio y los geoparques como base para el diseño de experiencias turísticas pertinentes al contexto regional. <br><br> De igual manera, fortalece capacidades para planear recorridos geoturísticos de acuerdo con el perfil del usuario, el objetivo del recorrido, las características del territorio y la normativa aplicable. Para ello, aborda la recopilación de información, la construcción del guion, la definición de rutas, recursos, protocolos de servicio, factores de riesgo y acciones de contingencia, con el propósito de proyectar experiencias turísticas seguras, organizadas y coherentes con las dinámicas del territorio.',
+      'El componente formativo Caracterización del geoturismo y planeación del recorrido geoturístico en atractivos turísticos orienta al aprendiz en el reconocimiento de los recursos y atractivos turísticos del territorio, así como en la comprensión del geoturismo, el sistema turístico, el patrimonio y los geoparques como base para el diseño de experiencias turísticas pertinentes al contexto regional. <br><br> De igual manera, fortalece capacidades para planear recorridos geoturísticos de acuerdo con el perfil del usuario, el objetivo del recorrido, las características del territorio y la normativa aplicable. Para ello, aborda la recopilación de información, la construcción del guion, la definición de rutas, recursos, protocolos de servicio, factores de riesgo y acciones de contingencia, con el propósito de proyectar experiencias turísticas seguras, organizadas y coherentes con las dinámicas del territorio.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -116,7 +116,7 @@ export default {
     {
       termino: 'Geopatrimonio',
       significado:
-        'Conjunto de elementos geológicos que poseen valor científico, educativo, cultural o paisajístico y deben conservarse',
+        'Conjunto de elementos geológicos que poseen valor científico, educativo, cultural o paisajístico y deben conservarse.',
     },
     {
       termino: 'Sistema turístico',
@@ -135,12 +135,12 @@ export default {
     {
       termino: 'Geoparque',
       significado:
-        'Territorio con lugares de relevancia geológica internacional gestionados con enfoques de protección, educación y desarrollo sostenible',
+        'Territorio con lugares de relevancia geológica internacional gestionados con enfoques de protección, educación y desarrollo sostenible.',
     },
     {
       termino: 'Patrimonio',
       significado:
-        'Conjunto de bienes y valores que una sociedad reconoce como parte de su memoria, identidad y herencia',
+        'Conjunto de bienes y valores que una sociedad reconoce como parte de su memoria, identidad y herencia.',
     },
     {
       termino: 'Servicios turísticos',
@@ -294,7 +294,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -333,8 +334,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora audiovisual',
+          nombre: 'Johann Sebastián Teran Carvajal',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

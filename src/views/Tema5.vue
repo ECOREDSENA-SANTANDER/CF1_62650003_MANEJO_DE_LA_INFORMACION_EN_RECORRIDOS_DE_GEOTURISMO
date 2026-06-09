@@ -65,7 +65,7 @@
 
     .titul.mb-5(data-aos="fade-right")
       img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
-      h3.mb-0 Geositios: elementos clave
+      h3.mb-0 Geositios: elementos claves
       img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
     
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4

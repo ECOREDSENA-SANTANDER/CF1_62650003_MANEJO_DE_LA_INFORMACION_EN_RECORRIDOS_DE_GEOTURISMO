@@ -401,7 +401,7 @@
 
     .titul.mb-5(data-aos="fade-right")
       img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
-      h3.mb-0 Normas clave para la guianza turística
+      h3.mb-0 Normas claves para la guianza turística
       img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
     
     .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-left")

@@ -125,6 +125,11 @@
         .bg3.p-4.p-lg-5
           p.mb-0 El geoturismo se relaciona con el aprovechamiento turístico de los elementos geológicos, del paisaje y de los procesos naturales presentes en un territorio. Su comprensión permite reconocer que la actividad turística no depende únicamente de los servicios o de la movilidad del visitante, sino también de la interpretación adecuada de las características físicas, naturales y culturales del lugar. En este sentido, el geoturismo favorece una mirada más amplia del territorio, en la que se articulan conocimiento, conservación, planificación e interpretación turística (UNESCO, 2024).
 
+    .titul.mb-5(data-aos="fade-right")
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      h3.mb-0 Aplicación del geoturismo en el territorio 
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         LineaTiempoE.color-primario
@@ -207,11 +212,10 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-4(
                 texto="<em>Podcast:</em> ¿Qué es el geoturismo y por qué aporta valor a los atractivos turísticos de la región?"
-                :audio="require('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require('@/assets/actividad/audio/Podcast_CF1_62650003_Manejo_de_la_informacion_en_recorridos_de_geoturismo.mp4')"
             ).mb-4
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.mb-0 #[em Podcast:] Para fortalecer la comprensión del geoturismo en el territorio, se sugiere escuchar el siguiente recurso de audio: ¿Qué es el geoturismo y por qué aporta valor a los atractivos turísticos de la región?
-
+                p.mb-0 #[em Podcast:] para fortalecer la comprensión del geoturismo en el territorio, se sugiere escuchar el siguiente recurso de audio: ¿Qué es el geoturismo y por qué aporta valor a los atractivos turísticos de la región?
 
 
 </template>
