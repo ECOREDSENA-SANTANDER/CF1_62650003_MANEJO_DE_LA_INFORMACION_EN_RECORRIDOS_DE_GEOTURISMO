@@ -211,11 +211,11 @@
             .tarjeta.bg12.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-4(
-                texto="<em>Podcast:</em> ¿Qué es el geoturismo y por qué aporta valor a los atractivos turísticos de la región?"
+                texto="<em>Podcast:</em> la importancia del geoturismo para valorar y conservar los atractivos turísticos de la región."
                 :audio="require('@/assets/actividad/audio/Podcast_CF1_62650003_Manejo_de_la_informacion_en_recorridos_de_geoturismo.mp4')"
-            ).mb-4
+            ).mb-0
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.mb-0 #[em Podcast:] para fortalecer la comprensión del geoturismo en el territorio, se sugiere escuchar el siguiente recurso de audio: ¿Qué es el geoturismo y por qué aporta valor a los atractivos turísticos de la región?
+                p.mb-0 #[em Podcast:] para fortalecer la comprensión del geoturismo en el territorio, se sugiere escuchar el siguiente recurso de audio: la importancia del geoturismo para valorar y conservar los atractivos turísticos de la región.
 
 
 </template>
