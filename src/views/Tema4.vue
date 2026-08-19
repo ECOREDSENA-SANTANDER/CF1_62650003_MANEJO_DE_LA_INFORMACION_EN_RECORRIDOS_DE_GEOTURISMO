@@ -62,7 +62,7 @@
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-acento-botones.p-4.h-100.mb-0
               .tarjeta-numerada__numero
-                .h2 3
+                .h2 4
               h5.mb-4.text-center.mx-3 Patrimonio arqueológico
               p.text-center.mx-3 Bienes y restos asociados a culturas desaparecidas o a épocas pasadas con valor histórico y cultural.
 

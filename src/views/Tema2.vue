@@ -48,7 +48,7 @@
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-acento-botones.p-4.h-100.mb-0
               .tarjeta-numerada__numero
-                .h2 3
+                .h2 4
               h5.mb-4.text-center Estructura de servicios y atractivos
               p.text-center.mx-3 Infraestructura, recursos y apoyos que hacen posible la experiencia turística.
 
