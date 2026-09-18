@@ -18,9 +18,9 @@
       p.mb-0 Comprender estos conceptos permite identificar cómo la actividad turística puede contribuir a la educación, a la interpretación del entorno y a la construcción de experiencias más significativas para los visitantes. De esta manera, el análisis del geoturismo y del patrimonio fortalece propuestas turísticas más conscientes, sostenibles y conectadas con las características del territorio (UNESCO, 2024).
 
     .titul.mb-5(data-aos="fade-right")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Patrimonio: concepto y tipos
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
@@ -28,15 +28,15 @@
         p.mb-0 En Colombia, el patrimonio puede entenderse desde diferentes tipos. El patrimonio cultural reúne los bienes materiales e inmateriales que evocan la memoria y la identidad ancestral. A su vez, el patrimonio cultural material comprende aquellos bienes perceptibles por los sentidos, como muebles e inmuebles, mientras que el patrimonio cultural inmaterial se relaciona con costumbres, saberes, tradiciones, rituales, lenguas, expresiones orales y prácticas culturales transmitidas en la vida cotidiana. Por su parte, el patrimonio arqueológico está conformado por bienes muebles o inmuebles originarios de culturas desaparecidas o pertenecientes a épocas pasadas, así como por restos humanos y orgánicos asociados a dichas culturas (Ministerio de las Culturas, las Artes y los Saberes, 2024).  
       .col-lg-5.d-none.d-lg-block
         .bg10.p-4
-          img(src='@/assets/curso/tema4/2.png', alt='')
+          img(src='@/assets/curso/tema4/2.png')
 
     .cajon.color-ace.p-lg-5.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Comprender el patrimonio y sus tipos permite reconocer que la actividad turística no debe limitarse a mostrar lugares o elementos llamativos, sino que también debe contribuir a su valoración, respeto y conservación. De esta manera, el análisis del patrimonio fortalece la interpretación del territorio y favorece experiencias turísticas más conscientes y responsables (Ministerio de las Culturas, las Artes y los Saberes, 2024).
 
     .titul.mb-5(data-aos="fade-left")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Tipos de patrimonio
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-12
@@ -67,9 +67,9 @@
               p.text-center.mx-3 Bienes y restos asociados a culturas desaparecidas o a épocas pasadas con valor histórico y cultural.
 
     .titul.mb-5(data-aos="fade-left")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Geoparque: concepto y características
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -87,125 +87,125 @@
       p.mb-0 Comprender el concepto de geoparque permite reconocer que estos territorios fortalecen la identidad local, promueven nuevas oportunidades vinculadas al geoturismo y contribuyen a la protección del patrimonio geológico. De esta manera, el geoparque se constituye en un espacio que favorece la valoración del territorio y el desarrollo de experiencias turísticas más sostenibles y significativas (UNESCO, 2024).
 
     .titul.mb-5(data-aos="fade-right")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Dimensiones del geoparque
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg6.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/4.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/4.svg')
           h4.mb-4.text-center Dimensión geodiversidad
           p.mb-0.text-center Permite comprender los elementos físicos y geológicos que dan valor al territorio. Incluye geología, geomorfología, hidrología y otros elementos físicos del territorio.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg6.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/5.svg')
           h4.mb-4.text-center Dimensión biodiversidad
           p.mb-0.text-center Relaciona el geoparque con los ecosistemas y con la diversidad natural del lugar.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg6.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/6.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/6.svg')
           h4.mb-4.text-center Dimensión cultural
           p.mb-0.text-center Integra la relación entre el territorio, las prácticas culturales, la arquitectura, la agricultura y otras expresiones humanas.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg6.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/7.svg')
           h4.mb-4.text-center Dimensión sociopolítica
           p.mb-0.text-center Se relaciona con la conservación, la gestión del territorio, el turismo y la participación de distintos actores.
 
     .titul.mb-5(data-aos="fade-right")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Geoturismo: concepto y relación con el territorio
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/8.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/8.png')
       .col-lg-7
         .bg3.p-4.p-lg-5
           p.mb-0 El geoturismo se relaciona con el aprovechamiento turístico de los elementos geológicos, del paisaje y de los procesos naturales presentes en un territorio. Su comprensión permite reconocer que la actividad turística no depende únicamente de los servicios o de la movilidad del visitante, sino también de la interpretación adecuada de las características físicas, naturales y culturales del lugar. En este sentido, el geoturismo favorece una mirada más amplia del territorio, en la que se articulan conocimiento, conservación, planificación e interpretación turística (UNESCO, 2024).
 
     .titul.mb-5(data-aos="fade-right")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Aplicación del geoturismo en el territorio 
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         LineaTiempoE.color-primario
           .row.justify-content-center.align-items-center(titulo="Paso 1" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/9.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/9.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Base del geoturismo
               p.mb-0 El geoturismo se apoya en elementos del territorio como el paisaje, las formaciones del terreno, las rocas, los sedimentos y los fósiles.
           .row.justify-content-center.align-items-center(titulo="Paso 2" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/10.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/10.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Procesos naturales
               p.mb-0 El territorio se forma y transforma por procesos como la actividad tectónica, los procesos ígneos, la meteorización, la erosión y el depósito.
           .row.justify-content-center.align-items-center(titulo="Paso 3" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/11.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/11.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Relación con la actividad turística
               p.mb-0 El geoturismo se articula con atractivos, actividades, excursiones, interpretación, alojamiento y gestión del destino.
           .row.justify-content-center.align-items-center(titulo="Paso 4" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/12.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Aplicación en el territorio
               p.mb-0 La interpretación adecuada de estos elementos favorece experiencias turísticas más educativas, responsables y sostenibles.
 
     .titul.mb-5(data-aos="fade-left")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Planificación del geoturismo
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         .bg11.p-4.p-lg-5
           p.mb-0.mt-lg-2.mb-lg-3 La planificación del geoturismo permite organizar el aprovechamiento turístico del territorio a partir de sus valores geológicos, paisajísticos, culturales y comunitarios. Para ello, requiere procesos de participación, evaluación del potencial geoturístico, definición de objetivos, gestión de recursos, desarrollo de productos y seguimiento de las acciones, de manera que las actividades turísticas se orienten hacia la conservación, la sostenibilidad y la participación de la comunidad (UNESCO, 2024).
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/13.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/13.png')
       
     .titul.mb-5(data-aos="fade-right")
-      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img.titul__icono-montania(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Elementos de la planificación del geoturismo
-      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')" alt='')
+      img.titul__icono-avion(:src="require('@/assets/curso/tema1/sub1.svg')")
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
         LineaTiempoE.color-primario
           .row.justify-content-center.align-items-center(titulo="Paso 1" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/14.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/14.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Participación de actores
               p.mb-0 Involucrar comunidad, expertos, organizaciones y demás partes interesadas del territorio.
           .row.justify-content-center.align-items-center(titulo="Paso 2" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/15.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/15.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Evaluación del potencial
               p.mb-0 Reconocer valores geológicos, paisajísticos, culturales y condiciones del territorio.
           .row.justify-content-center.align-items-center(titulo="Paso 3" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/16.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/16.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Plan de acción
               p.mb-0 Definir visión, objetivos, acciones, responsables, cronograma y presupuesto.
           .row.justify-content-center.align-items-center(titulo="Paso 4" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema4/17.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema4/17.svg')
             .col-lg-10.col-md-9.mb-3
               h4.mb-4 Gestión y seguimiento
               p.mb-0 Fortalecer recursos, visitantes, conservación, monitoreo y mejora continua.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema4/18.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/18.svg')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.bg12.p-4.rounded-0.h-100
