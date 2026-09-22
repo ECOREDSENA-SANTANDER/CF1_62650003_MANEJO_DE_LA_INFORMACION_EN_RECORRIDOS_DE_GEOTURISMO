@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-5
-            p.mb-0 El turismo es un fenómeno social, cultural y económico relacionado con el desplazamiento de personas hacia lugares distintos de su entorno habitual por motivos personales, profesionales o de negocios (ONU Turismo, s. f.). En Colombia, la Ley 2068 de 2020 lo define como el conjunto de actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual por un período consecutivo inferior a un año, con fines, entre otros, de ocio, cultura, salud, eventos, convenciones o negocios (Congreso de la República de Colombia, 2020).
+            p.mb-0 El turismo es un fenómeno social, cultural y económico relacionado con el desplazamiento de personas hacia lugares distintos de su entorno habitual por motivos personales, profesionales o de negocios (ONU Turismo, s. f.). En Colombia, el artículo 3 de la Ley 2068 de 2020, cuya definición de turismo no fue modificada por la Ley 2294 de 2023, lo define como el conjunto de actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual por un período consecutivo inferior a un año, con fines, entre otros, de ocio, cultura, salud, eventos, convenciones o negocios (Congreso de la República de Colombia, 2020). 
             br
             br
             p.mb-0 Comprender el turismo implica reconocer que no se limita al viaje, sino que también involucra actividades, servicios, relaciones con las comunidades receptoras y dinámicas económicas, sociales y culturales que inciden en el desarrollo de los destinos. Por ello, su estudio permite valorar su aporte al desarrollo local y a la gestión responsable del territorio (ONU Turismo, s. f.; Congreso de la República de Colombia, 2020).
@@ -243,7 +243,7 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        .bg4.p-4.d-none.d-md-block
+        .bg4.p-0.d-none.d-md-block
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               img(src='@/assets/curso/tema1/22.svg')
@@ -310,25 +310,25 @@
             ol.lista-ol--cuadro
               li.d-flex.mb-3
                 .lista-ol--cuadro__vineta
-                  span 5
+                  span 1
                 h5.mb-0 Transporte e infraestructura
               p.mb-4.mx-4.t1 Favorecen la conectividad, el acceso y el funcionamiento del destino.
             ol.lista-ol--cuadro
               li.d-flex.mb-3
                 .lista-ol--cuadro__vineta
-                  span 6
+                  span 2
                 h5.mb-0 Desarrollo de recursos humanos
               p.mb-4.mx-4.t1 Fortalece las capacidades del talento humano que participa en el sector.
             ol.lista-ol--cuadro
               li.d-flex.mb-3
                 .lista-ol--cuadro__vineta
-                  span 7
+                  span 3
                 h5.mb-0 Tecnología y sistemas
               p.mb-4.mx-4.t1 Apoya la gestión, la información, la comercialización y la operación turística.
             ol.lista-ol--cuadro
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
-                  span 8
+                  span 4
                 h5.mb-0 Bienes y servicios complementarios
               p.mb-4.mx-4.t1 Aportan valor a la experiencia turística, aunque no hagan parte del núcleo principal del servicio.
 
